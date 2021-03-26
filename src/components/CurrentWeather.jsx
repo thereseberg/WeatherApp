@@ -19,5 +19,7 @@ const CurrentWeather = ({city, location}) => {
     );
 }
 
+//Testcomment
+
 export default CurrentWeather;
 

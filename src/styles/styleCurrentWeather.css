@@ -1,6 +1,22 @@
-.current-weather{
-    background: lightblue;
-    width: 300px;
-    height: 250px;
+.current-weather-outer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+    position: relative;   
     margin: auto;
+    margin-top: 30px;
+}
+
+.current-weather-inner{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background: rgba(255,255,255,0.5)
+}
+
+.current-weather-inner img{
+    margin-bottom: -20px;
 }

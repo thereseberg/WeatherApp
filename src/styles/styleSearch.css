@@ -1,0 +1,16 @@
+.search-bar{
+    background: rgba(255,255,255,0.5);
+    height: 80px;
+    text-align: center;  
+    padding-top: 10px;     
+}
+
+.search-bar label {
+    font-weight: bold;  
+}
+
+.search-bar button {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+

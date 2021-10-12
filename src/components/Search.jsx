@@ -20,6 +20,7 @@ const Search = () => {
     const setFirstPage = async () => {
         const city = await apiWeather('Stockholm');
         setCity(city);
+        console.log(city);
         
         const location = await apiOneCall(city.coord.lon, city.coord.lat);
         setLocation(location);
